@@ -57,6 +57,7 @@ with open(filepath+file) as f:
            # print()
             session.execute(q,str(line[0]),str(line[1]),str(line[2]),line[3])
 
+
 session.shutdown()
 cluster.shutdown()
 
